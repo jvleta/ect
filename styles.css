@@ -15,6 +15,9 @@ header {
 footer {
   padding: 1rem;
   text-align: center;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: black;
 }
 
 body {
@@ -34,9 +37,6 @@ body {
   padding: 1rem;
 }
 
-.ect-logo {
-}
-
 .center {
   width: 75%;
   height: auto;
@@ -45,8 +45,18 @@ body {
   margin-right: auto;
 }
 
+
 .section-heading {
   border-top-style: solid;
   border-top-width: 5px;
   border-top-color: black;
+  text-align: center;
+}
+
+.subsection-heading {
+  text-align: center;
+}
+
+.teammember-name {
+  text-align: center;
 }
