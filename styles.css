@@ -5,17 +5,20 @@ body {
 }
 
 header {
-  border: 1px solid black;
-  padding: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
 }
 
 footer {
-  border: 1px solid black;
   padding: 1rem;
   text-align: center;
 }
 
 body {
+  padding: 1rem;
   font-family: system-ui, sans-serif;
   font-size: 2em;
 }
@@ -27,8 +30,23 @@ body {
 
 .child {
   flex: 1 1 300px;
-  border: 1px solid black;
   font-size: 2rem;
-  text-align: justify;
   padding: 1rem;
+}
+
+.ect-logo {
+}
+
+.center {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: black;
 }
