@@ -9,7 +9,7 @@
   },
   "author": "Jimmy Leta",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "http-server": "^14.1.0"
   }
 }
