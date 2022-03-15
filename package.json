@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "http-server": "^14.1.0"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.2"
   }
 }
