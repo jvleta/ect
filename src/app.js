@@ -22,7 +22,7 @@ if (form) {
         }
 
         if (data.email === '') {
-            incorrectInput += '<li>Please specify a email</li>';
+            incorrectInput += '<li>Please specify an email address</li>';
         }
 
         if (data.message === '') {
