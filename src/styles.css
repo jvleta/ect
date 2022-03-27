@@ -70,11 +70,11 @@ form {
   border-radius: 1em; */
 }
 
-ul {
+/* ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 
 form li + li {
   margin-top: 1em;
@@ -126,4 +126,3 @@ button {
   margin-left: .5em;
   height: 30px;
 }
-
