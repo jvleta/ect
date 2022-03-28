@@ -1,13 +1,15 @@
+export {};
+
 const form = document.getElementById('contact-form');
-const messageDiv = document.querySelector('#show-message');
+const messageDiv: HTMLDivElement = document.querySelector('#show-message');
 
 if (form) {
     form.addEventListener('submit', (event) => {
         event.preventDefault();
 
-        const message = form.querySelector('#msg');
-        const name = form.querySelector('#name');
-        const email = form.querySelector('#mail');
+        const message: HTMLInputElement = form.querySelector('#msg');
+        const name: HTMLInputElement = form.querySelector('#name');
+        const email: HTMLInputElement = form.querySelector('#mail');
 
         const data = {
             message: message.value,
